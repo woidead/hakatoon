@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav {
+    background: #65256F;
+    width: 100%;
+    height: 40px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.nav__content1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__content1-p1 {
+    margin: 9px 0;
+    color: #FFB700;
+}
+
+.nav__content1-p2 {
+    margin: 9px 0;
+    color: #FFFFFF;
+    margin-left: 500px;
+}
+
+
+
+.nav__contet-ul,
+a {
+    display: flex;
+    justify-content: space-between;
+    color: #2A2828;
+    margin: 15px 0 0 0;
+}
+
+.nav__content-btn {
+    background: #65256F;
+    width: 170px;
+    height: 43px;
+    right: 0;
+    border-radius: 3px;
+    color: #FFFFFF;
+}
+
+
+
+.nav__content2 {
+    margin: 15px 0 15px 0;
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+footer{
+    width: 100%;
+    height: 324px;
+    background-color: #3A3A3A;
+    border: #3A3A3A 1px solid;
+    margin-top: 100px;
+    
+}
+.all{
+    display: flex;
+    
+}
+.p1{
+    width: 252px;
+    height: 105px;
+    color: #BCBBBB;
+    top: 95px;
+    
+}
+.zag{
+    height: 20px;
+    width: 105px;
+    margin-top: 67px;
+    border-radius: nullpx;
+    color: white;
+
+}
+.zag2{
+    
+    margin-left: 150px;
+    margin-top: 64px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+.p2{
+    margin-top: 10px;
+    margin-left: 150px;
+    color: #BCBBBB;
+}
+.pp1{
+    margin-top: 14px;
+    margin-left: 150px;
+    color: #BCBBBB;
+
+}
+.zag3{
+    margin-top: 64px;
+    margin-left: 100px;
+    color: white;
+
+
+}
+.pp2{
+    margin-top: 14px;
+    margin-left: 100px;
+    height: 34px;
+    width: 214px;
+    color: #BCBBBB;
+
+    
+    
+}
+.p3{
+    margin-left: 100px;
+    margin-top: 10px;
+    color: #BCBBBB;
+
+
+}
+.shif{
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.shif1{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.zag4{
+    margin-top: 64px;
+    margin-left: 112px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.p44{
+    margin-top: 12px;
+    margin-left: 112px;
+    color: #BCBBBB;
+
+
+}
+.p4{
+    margin-top: 10px;
+    margin-left: 112px;
+    color: #BCBBBB;
+    
+}
+.block4 a{
+    color: #BCBBBB;
+
+}
+.block2 a{
+    color: #BCBBBB;
+}
+.ft{
+    width: 1168px;
+    height: 400px;
+    background-image: url('../img/Rectangle\ 141.png');
+    margin-top: 112px;
+    margin-bottom: 60px;
+    margin-left: 16px;
+}
+.show{
+    width: 202px;
+    height: 42px;
+    margin-top: -30px;
+    margin-left: 500px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+}
+
+.pa1{
+    position: absolute;
+    width: 1169px;
+    height: 81px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
+.hr12{
+    margin-top: 200px;
+}
+.show1{
+    width: 365px;
+    margin-bottom: 60px;
+    height: 42px;
+    margin-top: -32px;
+    margin-bottom: 92px;
+    margin-left: 430px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+}
+.show12{
+    width: 365px;
+    margin-bottom: 60px;
+    height: 42px;
+    margin-top: -32px;
+    margin-bottom: 92px;
+    margin-left: 430px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+}
+
+.hr2{
+    margin-top: 153px;
+}
+.ocem{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.con{
+    width: 1440px;
+margin:  auto;}
+.dsd{
+    background-image: url('../img/Rectangle\ 161.png');
+    width: 1440px;
+    height: 445px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cnop{
+    margin-top: -160px;
+    margin-right: 1300px;
+    transform: rotate(180deg);
+}
+.sde{
+    margin-top: -75px;
+    margin-left: 1300px;
+}
+    
+.erke{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    /* identical to box height */
+    width: 247px;
+    height: 42px;
+
+    color: #FFFFFF;
+    padding-top:52px ;
+    margin-left: 602px;
+    padding-bottom: 40px;
+
+}
+.frey{
+    width: 1134px;
+    height: 231px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 153px;
+    margin-top: 40px;
+    border: 1px solid white;
+}
+.bjoo{
+    width: 169px;
+    height: 93px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.hr1{
+    margin-top: 78px;
+}
+.show{
+    width: 358px;
+    margin-top: -25px;
+    margin-left: 400px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.prem{
+    display: flex;
+    justify-content: space-around;
+}
+.show3{
+    width: 254px;
+    height: 42px;
+    margin-top: -25px;
+    margin-left: 450px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 60px;
+}.show4{
+    width: 358px;
+height: 42px;
+    margin-top: -25px;
+    margin-left: 400px;
+    text-align: center;
+    background-color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.hr3{
+    margin-top: 80px;
+}
+.clin{
+    background-image: url('../img/nike-3.png');
+}
+.secetion7__content {
+    margin: 20px 0;
+}
+
+.input {
+    border-radius: 3px;
+    background-color: #E5E3E3;
+}
+
+/* section7 */
+.section7__input {
+    width: 968px;
+    height: 90px;
+    border-radius: 3px;
+    background-color: #FFFCFC;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.05);
+    margin-left: 90px;
+}
+
+.input1 {
+    margin-left: 26px;
+    width: 315px;
+    height: 47px;
+    margin-top: 22px;
+    padding: 0 20px;
+}
+
+.input2 {
+    margin-left: 26px;
+    width: 309px;
+    height: 47px;
+    margin-top: 22px;
+    padding: 0 20px;
+}
+
+.box8 {
+    margin-top: 22px;
+    margin-left: 34px;
+    width: 226px;
+    height: 47px;
+    background-color: #65256F;
+    color: white;
+}
